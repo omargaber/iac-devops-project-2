@@ -1,6 +1,9 @@
 [
 	{
-		"ParameterKey": "Add you parameters here",
-		"ParameterValue": "Add you parameters here"
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "iac-project-2"
+	},{
+		"ParameterKey": "AsgDesiredCapacity",
+		"ParameterValue": "1"
 	}
 ]
