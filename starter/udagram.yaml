@@ -63,7 +63,7 @@ Resources:
             sudo apt-get update -y
             sudo apt install nginx -y
             wget -P /var/www/html https://mywebappbucketiac.s3.us-east-2.amazonaws.com/index.html
-            sudo service nginx start
+            sudo service nginx restart
         ImageId: ami-05fb0b8c1424f266b
         SecurityGroupIds:
           - !Ref WebServerSecurityGroup
