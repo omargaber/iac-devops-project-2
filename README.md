@@ -22,28 +22,11 @@ In this project, you’ll deploy web servers for a highly available web app usin
 
 You can get started by cloning this repo in your local workspace:
 
-```
-git clone git@github.com:udacity/-cd12352-Deploy-Infrastructure-as-Code-project.git
-```
+The project infrastructure can be demonstrated by the below diagram (Created using LucidChart).
+![alt text](./infrastructure.png)
 
-## Testing
 
-No tests required for this project.
-
-## Project Instructions
-
-1. Design your solution diagram using a tool of your choice and export it into an image file.
-
-2. Add all the CloudFormation networking resources and parameters to the `network.yml` and `network-parameters.json` files inside the `starter` folder of this repo.
-
-3. Add all the CloudFormation application resources and parameters to the `udagram.yml` and `udagram-parameters.json` files inside the `starter` folder of this repo.
-
-4. Create any required script files to automate spin up and tear down of the CloudFormation stacks.
-
-5. Update the README.md file in the `starter` folder with creation and deletion instructions, as well as any useful information regarding your solution.
-   
-6.  Submit your solution as a GitHub link or a zipped file containing the diagram image, CloudFormation yml and json files, automation scripts and README file.
-
-## License
+The link for the LB DNS name is as follows:
+http://udagra-webap-5gxelg8jofrz-879273811.us-east-2.elb.amazonaws.com/
 
 [License](LICENSE.txt)
